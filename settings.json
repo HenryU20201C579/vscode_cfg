@@ -35,7 +35,7 @@
     "editorSuggestWidget.selectedBackground": "#ffffff50",
     "editor.wordHighlightTextBorder": "#ffffff50",
     "editor.wordHighlightBorder": "#ffffff50",
-    "editor.lineHighlightBackground": "#ff00ff30",
+    "editor.lineHighlightBackground": "#ff00ff20",
 
     "notebook.focusedCellBackground": "#ffffff30",
     "notebook.inactiveFocusedCellBorder": "#00ffff30",
