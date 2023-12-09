@@ -2,9 +2,9 @@
     "activityBarBadge.background": "#ffffff",
     "activityBar.foreground": "#ffffff",
     "editorLineNumber.activeForeground": "#00ffff",
-    "tab.activeBorder": "#00ffff",
     "focusBorder": "#00ffff",
     "activityBar.activeBorder": "#00ffff",
+    "tab.activeBorderTop": "#00ffff",
     "editor.lineHighlightBorder": "#00ffff50",
     "widget.shadow": "#00ffff50",
     "button.background": "#00ffff50",
@@ -20,7 +20,12 @@
     "editorSuggestWidget.background": "#000000",
     "tab.activeBackground": "#000000",
     "tab.inactiveBackground": "#000000",
-    "editorGroupHeader.tabsBackground": "#000000",    
-    "activityBarBadge.foreground": "#000000",
-
+    "editorGroupHeader.tabsBackground": "#000000",
+    "activityBarBadge.foreground": "#000000"
   },
+  "editor.cursorStyle": "line",
+  "workbench.layoutControl.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "breadcrumbs.enabled": false,
+  "editor.fontFamily": "Hack Nerd Font"
