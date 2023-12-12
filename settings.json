@@ -29,6 +29,7 @@
     "editorSuggestWidget.highlightForeground": "#00ffff",
     "editorSuggestWidget.focusHighlightForeground": "#00ffff",
     "tree.indentGuidesStroke": "#00ffff",
+    "peekView.border": "#00ffff",
 
     "widget.shadow": "#00ffff50",
     "button.background": "#00ffff50",
@@ -61,7 +62,10 @@
     "notifications.background": "#000000",
     "editorHoverWidget.background": "#000000",
     "editorWidget.background": "#000000",
-    "quickInput.background": "#000000"
+    "quickInput.background": "#000000",
+    "peekViewEditor.background": "#000000",
+    "peekViewTitle.background": "#000000",
+    "peekViewResult.background": "#000000"
   },
 
   "editor.cursorStyle": "line",
@@ -72,5 +76,6 @@
   "editor.fontFamily": "Hack Nerd Font",
   "editor.scrollbar.verticalScrollbarSize": 7,
   "editor.scrollbar.horizontalScrollbarSize": 7,
-  "workbench.tree.renderIndentGuides": "always"
+  "workbench.tree.renderIndentGuides": "always",
+  "window.commandCenter": false
 }
