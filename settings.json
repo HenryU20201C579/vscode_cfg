@@ -28,11 +28,14 @@
     "editorSuggestWidget.selectedIconForeground": "#00ffff",
     "editorSuggestWidget.highlightForeground": "#00ffff",
     "editorSuggestWidget.focusHighlightForeground": "#00ffff",
+    "tree.indentGuidesStroke": "#00ffff",
 
     "widget.shadow": "#00ffff50",
     "button.background": "#00ffff50",
     "menu.selectionBackground": "#00ffff50",
+    "commandCenter.activeBackground": "#00ffff50",
     "editorSuggestWidget.selectedBackground": "#ffffff50",
+    "quickInputList.focusBackground": "#00ffff50",
     "editor.wordHighlightTextBorder": "#ffffff50",
     "editor.wordHighlightBorder": "#ffffff50",
     "editor.lineHighlightBackground": "#ff00ff20",
@@ -50,7 +53,15 @@
     "tab.activeBackground": "#000000",
     "tab.inactiveBackground": "#000000",
     "editorGroupHeader.tabsBackground": "#000000",
-    "activityBarBadge.foreground": "#000000"
+    "activityBarBadge.foreground": "#000000",
+    "terminal.background": "#000000",
+    "panel.background": "#000000",
+    "input.background": "#000000",
+    "commandCenter.background": "#000000",
+    "notifications.background": "#000000",
+    "editorHoverWidget.background": "#000000",
+    "editorWidget.background": "#000000",
+    "quickInput.background": "#000000"
   },
 
   "editor.cursorStyle": "line",
@@ -60,5 +71,6 @@
   "breadcrumbs.enabled": false,
   "editor.fontFamily": "Hack Nerd Font",
   "editor.scrollbar.verticalScrollbarSize": 7,
-  "editor.scrollbar.horizontalScrollbarSize": 7
+  "editor.scrollbar.horizontalScrollbarSize": 7,
+  "workbench.tree.renderIndentGuides": "always"
 }
