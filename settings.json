@@ -80,7 +80,7 @@
   "workbench.activityBar.location": "top",
   "workbench.statusBar.visible": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.iconTheme": "a-file-icon-vscode",
+  "workbench.iconTheme": "symbols",
   "security.allowedUNCHosts": ["wsl.localhost"],
   "database-client.autoSync": true,
   "[sql]": {
@@ -89,5 +89,8 @@
   "terminal.integrated.defaultProfile.windows": "Ubuntu-24.04 (WSL)",
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "window.commandCenter": false,
-  "workbench.secondarySideBar.defaultVisibility": "visible"
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "explorer.compactFolders": false,
+  "window.zoomLevel": 0,
+  "editor.fontSize": 14,
 }
