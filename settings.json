@@ -1,23 +1,21 @@
 {
   "workbench.startupEditor": "none",
   "workbench.editor.showTabs": "none",
-  "tabnine.experimentalAutoImports": true,
   "notebook.lineNumbers": "on",
-  "redhat.telemetry.enabled": true,
   "git.openRepositoryInParentFolders": "always",
-  "go.toolsManagement.autoUpdate": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.cursorBlinking": "expand",
   "editor.linkedEditing": true,
-  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "workbench.editorAssociations": {
     "*.sql": "sql-notebook"
   },
   "editor.stickyScroll.maxLineCount": 2,
   "editor.stickyScroll.scrollWithEditor": false,
-
   "workbench.colorCustomizations": {
     "activityBarBadge.background": "#00ffff",
     "activityBar.foreground": "#00ffff",
@@ -31,7 +29,6 @@
     "editorSuggestWidget.focusHighlightForeground": "#00ffff",
     "tree.indentGuidesStroke": "#00ffff",
     "peekView.border": "#00ffff",
-
     "widget.shadow": "#00ffff50",
     "button.background": "#00ffff50",
     "menu.selectionBackground": "#00ffff50",
@@ -41,13 +38,14 @@
     "editor.wordHighlightTextBorder": "#ffffff50",
     "editor.wordHighlightBorder": "#ffffff50",
     "editor.lineHighlightBackground": "#8000ff50",
-
     "notebook.focusedCellBackground": "#ffffff30",
     "notebook.inactiveFocusedCellBorder": "#00ffff30",
-
     "editor.background": "#000000",
+    "editorGroup.border": "#000000",
     "sideBar.background": "#000000",
+    "sideBar.border": "#000000",
     "titleBar.activeBackground": "#000000",
+    "titleBar.border": "#000000",
     "statusBar.background": "#000000",
     "activityBar.background": "#000000",
     "menu.background": "#000000",
@@ -58,6 +56,7 @@
     "activityBarBadge.foreground": "#000000",
     "terminal.background": "#000000",
     "panel.background": "#000000",
+    "panel.border": "#000000",
     "input.background": "#000000",
     "commandCenter.background": "#000000",
     "notifications.background": "#000000",
@@ -66,22 +65,25 @@
     "quickInput.background": "#000000",
     "peekViewEditor.background": "#000000",
     "peekViewTitle.background": "#000000",
-    "peekViewResult.background": "#000000"
+    "peekViewResult.background": "#000000",
   },
-
+  "editor.matchBrackets": "never",
   "editor.cursorStyle": "line",
+  "editor.occurrencesHighlight": "multiFile",
   "editor.minimap.enabled": false,
   "editor.hideCursorInOverviewRuler": true,
   "breadcrumbs.enabled": true,
   "editor.fontFamily": "Hack Nerd Font",
-  "editor.scrollbar.verticalScrollbarSize": 7,
-  "editor.scrollbar.horizontalScrollbarSize": 7,
-  "workbench.tree.renderIndentGuides": "always",
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "workbench.tree.renderIndentGuides": "none",
   "workbench.activityBar.location": "top",
   "workbench.statusBar.visible": false,
   "workbench.layoutControl.enabled": false,
   "workbench.iconTheme": "symbols",
-  "security.allowedUNCHosts": ["wsl.localhost"],
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
   "database-client.autoSync": true,
   "[sql]": {
     "editor.defaultFormatter": "cweijan.vscode-database-client2"
@@ -93,4 +95,16 @@
   "explorer.compactFolders": false,
   "window.zoomLevel": 0,
   "editor.fontSize": 14,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
 }
