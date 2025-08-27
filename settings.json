@@ -76,6 +76,7 @@
   "editor.fontFamily": "Hack Nerd Font",
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.scrollbar.horizontalScrollbarSize": 0,
+  "explorer.decorations.badges": false,
   "workbench.tree.renderIndentGuides": "none",
   "workbench.activityBar.location": "top",
   "workbench.statusBar.visible": false,
@@ -88,8 +89,8 @@
   "[sql]": {
     "editor.defaultFormatter": "cweijan.vscode-database-client2"
   },
-  "terminal.integrated.defaultProfile.windows": "Ubuntu-24.04 (WSL)",
-  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.enableMultiLinePasteWarning": "always",
   "window.commandCenter": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "explorer.compactFolders": false,
@@ -99,7 +100,8 @@
     "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.tabSize": 2,
   },
   "[snippets]": {
     "editor.defaultFormatter": "vscode.json-language-features"
