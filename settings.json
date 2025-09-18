@@ -7,8 +7,8 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.cursorBlinking": "expand",
   "editor.linkedEditing": true,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.enabled": false,
+  // "editor.guides.bracketPairs": "active",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "workbench.editorAssociations": {
@@ -96,6 +96,9 @@
   "explorer.compactFolders": false,
   "window.zoomLevel": 0,
   "editor.fontSize": 14,
+  "focus.highlightRange": "indent",
+  "editor.guides.indentation": false,
+  "editor.guides.highlightActiveIndentation": false,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
