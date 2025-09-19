@@ -8,7 +8,7 @@
   "editor.cursorBlinking": "expand",
   "editor.linkedEditing": true,
   "editor.bracketPairColorization.enabled": false,
-  // "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairs": "active",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "workbench.editorAssociations": {
