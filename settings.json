@@ -62,6 +62,10 @@
     "peekViewEditor.background": "#000000",
     "peekViewTitle.background": "#000000",
     "peekViewResult.background": "#000000",
+    "scrollbar.shadow": "#0000",
+    "scrollbarSlider.background": "#0000",
+    "scrollbarSlider.hoverBackground": "#0000",
+    "scrollbarSlider.activeBackground": "#0000"
   },
   "editor.matchBrackets": "never",
   "editor.cursorStyle": "line",
