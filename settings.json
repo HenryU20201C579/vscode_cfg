@@ -6,7 +6,7 @@
   "editor.formatOnSave": true,
   "editor.cursorBlinking": "expand",
   "editor.linkedEditing": true,
-  "editor.bracketPairColorization.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.cursorSmoothCaretAnimation": "on",
@@ -90,7 +90,7 @@
   "terminal.integrated.enableMultiLinePasteWarning": "always",
   "window.commandCenter": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "explorer.compactFolders": false,
   "window.title": "${dirty}${activeEditorShort}",
   "window.zoomLevel": 0,
@@ -104,7 +104,6 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features",
-    "editor.tabSize": 2,
   },
   "[snippets]": {
     "editor.defaultFormatter": "vscode.json-language-features"
