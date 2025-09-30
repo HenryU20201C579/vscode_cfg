@@ -1,7 +1,10 @@
 {
   "workbench.startupEditor": "none",
   "workbench.editor.showTabs": "none",
+  "editor.glyphMargin": false,
   "notebook.lineNumbers": "on",
+  "editor.lineNumbers": "on",
+  "editor.tabSize": 4,
   "git.openRepositoryInParentFolders": "always",
   "editor.formatOnSave": true,
   "editor.cursorBlinking": "expand",
@@ -16,6 +19,7 @@
     "activityBarBadge.background": "#00ffff",
     "activityBar.foreground": "#00ffff",
     "editorLineNumber.activeForeground": "#00ffff",
+    "editorLineNumber.foreground": "#ffffff30",
     "focusBorder": "#00ffff",
     "activityBar.activeBorder": "#00ffff",
     "tab.activeBorderTop": "#00ffff",
@@ -104,6 +108,7 @@
   },
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.tabSize": 4,
   },
   "[snippets]": {
     "editor.defaultFormatter": "vscode.json-language-features"
