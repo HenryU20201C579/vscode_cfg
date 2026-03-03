@@ -9,5 +9,9 @@
         "key": "ctrl+d",
         "command": "explorer.newFolder",
         "when": "filesExplorerFocus"
-    }
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "workbench.scm.history.focus"
+    },
 ]
