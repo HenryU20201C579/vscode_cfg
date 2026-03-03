@@ -40,8 +40,10 @@
     "editor.lineHighlightBackground": "#8000ff50",
     "editor.background": "#000000",
     "editor.selectionBackground": "#ffffff40",
-    "notebook.focusedCellBackground": "#ffffff30",
+    "notebook.focusedCellBackground": "#000000",
     "notebook.inactiveFocusedCellBorder": "#00ffff30",
+    "notebook.cellBorderColor": "#000000",
+    "notebook.focusedEditorBorder": "#000000",
     "editorGroup.border": "#000000",
     "sideBar.background": "#000000",
     "sideBar.border": "#000000",
@@ -86,7 +88,6 @@
   "workbench.activityBar.location": "top",
   "workbench.statusBar.visible": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.iconTheme": "symbols",
   "security.allowedUNCHosts": [
     "wsl.localhost"
   ],
@@ -97,9 +98,9 @@
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.sideBar.location": "left",
   "explorer.compactFolders": false,
-  "window.title": "${dirty}${activeEditorShort}",
+  "window.title": "${dirty}${rootName}",
   "window.zoomLevel": 0,
-  "editor.fontSize": 14,
+  "editor.fontSize": 16,
   "focus.highlightRange": "indent",
   "focus.opacity": "0.4",
   "editor.guides.indentation": false,
@@ -117,4 +118,29 @@
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  "files.associations": {
+    "*.canvas": "json"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "C:\\Users\\HENRYD~1\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
+    "C:\\Users\\HENRYD~1\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
+    "C:\\Users\\HENRYD~1\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
+    "C:\\Users\\HENRYD~1\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true,
+    "C:\\Users\\HENRYD~1\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
+    "C:\\Users\\HENRYD~1\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true
+  },
+  "workbench.iconTheme": "symbols",
+  "claudeCode.preferredLocation": "panel",
+  "terminal.integrated.suggest.cdPath": "off",
+  "terminal.integrated.suggest.enabled": false,
+  "terminal.integrated.suggest.inlineSuggestion": "off",
+  "terminal.integrated.suggest.providers": {
+    "lsp": false,
+    "vscode.terminal-suggest": false
+  },
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.postCommitCommand": "sync",
 }
