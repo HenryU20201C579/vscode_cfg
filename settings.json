@@ -72,7 +72,11 @@
     "scrollbar.shadow": "#000",
     "scrollbarSlider.background": "#000",
     "scrollbarSlider.hoverBackground": "#000",
-    "scrollbarSlider.activeBackground": "#000"
+    "scrollbarSlider.activeBackground": "#000",
+    "breadcrumb.background": "#000000",
+    "editorGutter.background": "#000000",
+    "editorStickyScroll.background": "#000000",
+    "editorStickyScrollHover.background": "#000000"
   },
   "editor.matchBrackets": "never",
   "editor.cursorStyle": "line",
@@ -143,4 +147,5 @@
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.postCommitCommand": "sync",
+  "claudeCode.allowDangerouslySkipPermissions": true,
 }
